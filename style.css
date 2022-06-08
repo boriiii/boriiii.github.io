@@ -44,14 +44,14 @@ h2 {
   font-weight: bold;
 }
 
-.hamburger-menu {
+.sft-menu {
   position: absolute;
   top: 0;
   left: 0;
   padding: 35px;
   z-index: 2;
 }
-.hamburger-menu button {
+.sft-menu button {
   position: relative;
   width: 30px;
   height: 22px;
@@ -60,7 +60,7 @@ h2 {
   padding: 0;
   cursor: pointer;
 }
-.hamburger-menu button span {
+.sft-menu button span {
   position: absolute;
   height: 3px;
   background: #000;
@@ -69,21 +69,21 @@ h2 {
   top: 0px;
   transition: 0.1s ease-in;
 }
-.hamburger-menu button span:nth-child(2) {
+.sft-menu button span:nth-child(2) {
   top: 9px;
 }
-.hamburger-menu button span:nth-child(3) {
+.sft-menu button span:nth-child(3) {
   top: 18px;
 }
-.hamburger-menu [data-state=open] span:first-child {
+.sft-menu [data-state=open] span:first-child {
   transform: rotate(45deg);
   top: 10px;
 }
-.hamburger-menu [data-state=open] span:nth-child(2) {
+.sft-menu [data-state=open] span:nth-child(2) {
   width: 0%;
   opacity: 0;
 }
-.hamburger-menu [data-state=open] span:nth-child(3) {
+.sft-menu [data-state=open] span:nth-child(3) {
   transform: rotate(-45deg);
   top: 10px;
 }
